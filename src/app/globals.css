@@ -1,0 +1,36 @@
+@import 'flowbite/dist/flowbite.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.round{
+  border-radius: 10px 10px 10px 100px;
+}
+.btn-primary{
+  @apply font-medium px-4 py-2 rounded-xl text-white bg-[#F10058]
+}
+.btn-secondary{
+  @apply font-medium px-4 py-2 rounded-xl text-white bg-[#167AF2] 
+}
+.section-title{
+  @apply md:text-4xl text-3xl font-bold text-[#172C56]
+}
+.feature-title{
+  @apply text-3xl font-bold
+}
+.feature-sub{
+  @apply text-2xl font-semibold
+}

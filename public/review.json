@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Jane Doe",
+        "status": "Project Manager, Tech Innovators Inc.",
+        "review": "Since we started using Monitorfly, our team's productivity has skyrocketed. The real-time tracking and task management features are game changers.",
+        "img": "https://i.ibb.co/cFLfmhJ/images.jpg"
+    },
+    {
+        "id": 2,
+        "name": "John Smith",
+        "status": "CEO, Creative Solutions",
+        "review": "The collaboration tools have made it so much easier for our remote team to stay connected and on the same page. Highly recommend this software!",
+        "img": "https://i.ibb.co/cFLfmhJ/images.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Lee",
+        "status": "Marketing Director, Global Enterprises",
+        "review": "The customizable dashboards allow me to keep track of all my projects at a glance. Monitorfly has truly transformed how we work.",
+        "img": "https://i.ibb.co/cFLfmhJ/images.jpg"
+    }
+]
