@@ -1,4 +1,5 @@
 import Banner from "@/Component/Banner";
+import Banner2 from "@/Component/Banner2";
 import Contact from "@/Component/Contact";
 import Create_Account from "@/Component/Create_Account";
 import Download from "@/Component/Download";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
+      <Banner2 />
       <Feature />
       <Faq />
       <Create_Account />
