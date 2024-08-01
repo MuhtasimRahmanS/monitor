@@ -1,11 +1,13 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "./banner.css";
 import Link from "next/link";
 const Banner = () => {
   return (
@@ -16,7 +18,12 @@ const Banner = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay]}
+        pagination={{
+          dynamicBullets: true,
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Autoplay, Navigation]}
         loop={true}
         className="mySwiper"
       >
@@ -27,8 +34,8 @@ const Banner = () => {
               backgroundImage: "url(/banner4.jpg)",
             }}
           >
-            <div className=" bg-black/20 py-10">
-              <div className="md:flex justify-between container  mx-auto py-20 px-4 sm:px-4 lg:px-8">
+            <div className=" bg-black/20  py-10">
+              <div className="md:flex justify-between  container  mx-auto py-20 px-4 sm:px-4 lg:px-8">
                 <div className="md:w-1/2">
                   <h1 className="text-4xl  font-bold text-black">
                     Unlock your team&apos;s full potential <br /> with
